@@ -1,0 +1,10 @@
+{
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Kanagawa",
+    "editor.fontFamily": "'Cascadia Mono', 'CaskaydiaCove Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    "security.workspace.trust.untrustedFiles": "open",
+    "extensions.ignoreRecommendations": true,
+    "rust-analyzer.highlighting.strings": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "files.autoSave": "afterDelay"
+}
