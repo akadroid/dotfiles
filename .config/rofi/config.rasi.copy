@@ -1,0 +1,15 @@
+configuration {
+	modi: "drun,calc,window,combi,emoji";
+	modes: "drun,calc,window,combi,emoji";
+	combi-modi: "drun,run";
+
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
