@@ -23,6 +23,8 @@
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
 
+tabspaces: 4
+
 # Font configuration
 font:
   normal:

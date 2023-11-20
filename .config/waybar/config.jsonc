@@ -17,7 +17,7 @@
 	//"modules-left": ["custom/padd","custom/l_end","custom/power","custom/cliphist","custom/wallchange","custom/r_end","custom/l_end","wlr/taskbar","custom/media","custom/r_end","","custom/padd"],
     "modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","custom/r_end","custom/l_end","wlr/taskbar","mpris","custom/r_end","","custom/padd"],
     "modules-center": ["custom/padd","custom/l_end","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","tray","custom/r_end","custom/l_end","bluetooth","custom/power","custom/nightcolor","custom/wallchange","pulseaudio","pulseaudio#microphone","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","tray","custom/r_end","custom/l_end","custom/power","custom/nightcolor","custom/wallchange","pulseaudio","pulseaudio#microphone","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
@@ -31,8 +31,8 @@
 
     "custom/power": {
         "format": " {}",
-        "exec": "echo ; echo  logout",
-        "on-click": "sleep 0.1 && rofi -show p -modi p:'rofi-power-menu --choices shutdown/reboot/suspend/logout' -location 3",
+        "exec": "echo ; echo  shutdown menu",
+        "on-click": "sleep 0.1 && wlogout",
         "interval" : 86400, // once every day
         "tooltip": true
     },
@@ -90,9 +90,9 @@
     },
 
     "clock": {
-        "format": "{: %I:%M %p 󰃭 %a %b %d}",
+        "format": " {:%I:%M %p 󰃭 %a %b %d}",
         "format-alt": "{:󰥔 %H:%M  %b %Y}",
-        "tooltip-format": "<tt><small>{calendar}</small></tt>"
+        "tooltip-format": "<tt>{calendar}</tt>"
     },
 
     "tray": {

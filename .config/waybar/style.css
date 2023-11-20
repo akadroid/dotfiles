@@ -116,7 +116,7 @@ tooltip {
 #custom-sr_end,
 #tray {
     color: @main-color;
-    background: @main-bg;
+    background: alpha(@main-bg, 0.80);
     opacity: 1;
     margin: 4px 0px 4px 0px;
     padding-left: 4px;

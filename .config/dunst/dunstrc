@@ -264,7 +264,7 @@
 
     # Uncomment this if you want to let notications appear under fullscreen
     # applications (default: overlay)
-    layer = top
+    layer = overlay
 
     # Set this to true to use X11 output on Wayland.
     force_xwayland = false
@@ -313,7 +313,7 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#181825df"
+    background = "#18182544"
     foreground = "#f5e0dcff"
     frame_color = "#f5c2e7ee"
     icon = "~/.config/dunst/icons/low.svg"
@@ -322,7 +322,7 @@
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#313244df"
+    background = "#31324444"
     foreground = "#f5e0dcff"
     frame_color = "#60638aee"
     icon = "~/.config/dunst/icons/normal.svg"
@@ -331,7 +331,7 @@
     #default_icon = /path/to/icon
 
 [urgency_critical]
-    background = "#f5e0dcdf"
+    background = "#f5e0dc44"
     foreground = "#1e1e2eff"
     frame_color = "#1b1c26ee"
     icon = "~/.config/dunst/icons/critical.svg"
