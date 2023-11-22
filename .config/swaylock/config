@@ -1,6 +1,7 @@
 ignore-empty-password
 daemonize
 clock
+timestr=%I:%M %p
 
 # Indicator
 indicator
